@@ -1,0 +1,12 @@
+[info]
+title=Formatter for VBScript
+desc=Formats VBScript code
+type=cudatext-plugin
+subdir=cuda_fmt_vbscript
+homepage=https://github.com/CudaText-addons/cuda_fmt_vbscript
+
+[fmt1]
+caption=VBScript Format
+method=do_format
+lexers=VBScript
+config=cuda_vbscript_format.json
